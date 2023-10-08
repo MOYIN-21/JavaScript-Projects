@@ -1,17 +1,17 @@
-function isEven(n) {
+function isEven(number) {
 
-    while (n > 1) {
-        n -= 2;
-      }
-    if (n == 0) {
-      return "is even";
-    } else if (n == 1) {
-      return "is odd";
-    } else {
-      return isEven(n - 2);
+  if(number < number){
+    number = - number;
     }
-  }
-  
+    if(number % 2 == 0){
+    return true
+    }
+    if(number % 2 == 1){
+        return false
+    }
+    return isEven(number - 2)
+    
+}
 //   console.log(isEven(50));  
   console.log(isEven(75));  
 //   console.log(isEven(-1));   
