@@ -1,7 +1,10 @@
 function countBs(number){
-    for (let b = 0; b = countBs.length-1; b++){
-        if (String == number)
-            return countBs;
+    let letter = 0;
+    for (let b = 0; b < number.length-1; b++){
+        if (number[b] == "B"){
+            letter++;
     }
+    return letter;
 }
-console.log(countBs("B, b, b"))
+}
+console.log(countBs("Bobo"));
