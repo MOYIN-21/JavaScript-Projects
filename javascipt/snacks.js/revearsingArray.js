@@ -1,10 +1,8 @@
-function revearseArray(){
-    bucket = [1, 2, 3, 4, 5];
-    for (let i = answer.length-1; i >=0; i--){
-        console.log(bucket+=i);
+function revearseArray(red){
+    bucket = []
+    for (let i = red.length-1; i>0; i--){
+        bucket+=i;
+        let glo = bucket
     }
-    // console.log())
-
+console.log(revearseArray(1, 2, 3, 4, 5));
 }
-
-// function revearseArrayInPlace(){
