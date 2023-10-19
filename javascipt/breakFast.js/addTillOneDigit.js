@@ -13,10 +13,10 @@ function digital_root(digit) {
 }
 console.log(digital_root(38))
 
-function digit(num){
-    let non = 0;
-    non+=num % 10;
-    non= non + (num / 10);
-    return non;
-}
-console.log(digit(38));
+// function digit(num){
+//     let non = 0;
+//     non+=num % 10;
+//     non= non + (num / 10);
+//     return non;
+// }
+// console.log(digit(38));
