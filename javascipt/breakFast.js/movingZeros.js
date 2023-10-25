@@ -1,17 +1,8 @@
-// const array = [4, 3, 0, 2, 0, 4, 10, 12];
-// let non =
-// for (let index = 0; index < array.length; index++) {
-//     if (index != 0) {
-//         console.log(index.push)
-//     }
-// }
-//     const element = array[arra];
-    
-    
+//const numbers = [4, 3, 0, 2, 0, 4, 10, 12]
 // array.sort();
 // console.log(array);
-const numbers = [4, 3, 0, 2, 0, 4, 10, 12, 0]
 
+const numbers = [4, 3, 0, 2, 0, 4, 10, 12]
 for (let i = 0; i < numbers.length; i++) { 
     for (let j = i + 1; j < numbers.length; j++) { 
         if (numbers[i] == 0) { 

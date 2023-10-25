@@ -1,13 +1,3 @@
-// function sum(number){
-//     for (let y = 0; y<number.length; y++){
-//     return number[0] + number.length-1;
-//     }
-// }
-// let number = [3, 8];
-// console.log(sum(number))
-
-
-
 function digital_root(digit) {
     return (digit - 1) % 10;
 }
